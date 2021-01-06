@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Social connectivity</string>
+    <string name="button_signin">Sign in with your Google Account</string>
+    <string name="lets_connect">LETS  CONNECT</string>
+    <string name="meme">MEME</string>
+    <string name="post">POST</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">NEXT</string>
+    <string name="share">SHARE</string>
+    <string name="fab_button">fab_button</string>
+    <string name="create_your_post">Create Your Post</string>
+    <string name="what_do_you_want_to_talk_about">What do you want to talk about?</string>
+
+    <string name="likebtn">likebtn</string>
+    <string name="userpic">userpic</string>
+    <string name="share_as_post">SHARE AS POST</string>
+    <string name="logout">logout</string>
+    <string name="chat">chat</string>
+    <string name="choose_your_channel_for_discussions">CHOOSE YOUR CHANNEL FOR DISCUSSIONS</string>
+    <string name="android">android</string>
+    <string name="android_channel">ANDROID CHANNEL</string>
+    <string name="enter_you_message">enter you message</string>
+    <string name="send">SEND</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/lets_post"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/f"
+        android:text="@string/lets_connect"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/logout2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logout2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/logout"
+        android:src="@drawable/logout"
+        android:onClick="logoutpagePost"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/posttitle"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lets_post" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/posttitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/line1"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/fab_button"
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="@color/theme"
+        app:layout_constraintBottom_toTopOf="@id/line1"
+        app:layout_constraintRight_toRightOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5864"
+        android:elevation="5dp"
+        android:id="@+id/line1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/theme"
+            android:contentDescription="@string/meme"
+            android:onClick="loadMemePage"
+            android:id="@+id/memepage_post"
+            android:src="@drawable/meme" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/theme"
+            android:contentDescription="@string/post"
+            android:onClick="loadPostPage"
+            android:id="@+id/postpage_post"
+            android:src="@drawable/post" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

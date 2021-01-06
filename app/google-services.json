@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354422226280",
+    "project_id": "social-connectivity-bd83d",
+    "storage_bucket": "social-connectivity-bd83d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354422226280:android:07cdcb05a7bb79bf03eadd",
+        "android_client_info": {
+          "package_name": "com.example.socialconnectivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354422226280-8aica3ja0vfic9hkm5pa9jnb8rfbcsd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC4kreJo_GHb4bvL4OcP_esBFKD3kaXg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354422226280-8aica3ja0vfic9hkm5pa9jnb8rfbcsd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
